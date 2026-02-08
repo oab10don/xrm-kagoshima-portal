@@ -117,10 +117,10 @@ export default function AboutPage() {
 
       <div className="mt-12 flex flex-col items-center justify-center gap-3 sm:flex-row">
         <CTAButton href={discordConfig.inviteUrl} external variant="discord">
-          Discord に参加する
+          Join our Discord
         </CTAButton>
         <CTAButton href={connpassConfig.groupUrl} external variant="connpass">
-          connpass で参加する
+          View events on connpass
         </CTAButton>
         <CTAButton href="/contact" variant="secondary">
           お問い合わせ

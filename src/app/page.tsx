@@ -31,10 +31,10 @@ export default async function Home() {
           </div>
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <CTAButton href={discordConfig.inviteUrl} external variant="discord">
-              Discord に参加する
+              Join our Discord
             </CTAButton>
             <CTAButton href={connpassConfig.groupUrl} external variant="connpass">
-              connpass でイベントをチェック
+              View events on connpass
             </CTAButton>
           </div>
         </div>
